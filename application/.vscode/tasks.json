@@ -1,0 +1,60 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "c:/Qt/Tools/mingw810_64/bin/mingw32-make",
+            "problemMatcher": [],
+            "options": {
+                "cwd": ""
+            },
+        }, 
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "c:/Qt/Tools/mingw810_64/bin/mingw32-make clean",
+            "problemMatcher": [],
+            "options": {
+                "cwd": ""
+            },
+        }, 
+        {
+            "label": "flash application",
+            "type": "shell",
+            "command": "c:/Qt/Tools/mingw810_64/bin/mingw32-make flash",
+            "problemMatcher": [],
+            "options": {
+                "cwd": ""
+            },
+            "dependsOn": "build"
+        }, 
+        {
+            "label": "flash softdevice",
+            "type": "shell",
+            "command": "c:/Qt/Tools/mingw810_64/bin/mingw32-make flash_softdevice",
+            "problemMatcher": [],
+            "options": {
+                "cwd": ""
+            }
+        }, 
+        {
+            "label": "erase all",
+            "type": "shell",
+            "command": "c:/Qt/Tools/mingw810_64/bin/mingw32-make erase",
+            "problemMatcher": [],
+            "options": {
+                "cwd": ""
+            }
+        }, 
+        {
+            "label": "edit sdk_config",
+            "type": "shell",
+            "command": "c:/Qt/Tools/mingw810_64/bin/mingw32-make sdk_config",
+            "problemMatcher": [],
+            "options": {
+                "cwd": ""
+            }
+        }
+    ]
+}

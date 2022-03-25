@@ -1,0 +1,11 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.makePath": "c:\\Qt\\Tools\\mingw810_64\\bin\\mingw32-make",
+    "files.associations": {
+        "boards.h": "c",
+        "string.h": "c",
+        "nordic_common.h": "c",
+        "bsp_btn_ble.h": "c",
+        "nrf_bootloader_info.h": "c"
+    },
+}

@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "c:/Work/nRF5_SDK_17.1.0_ddde560/**"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/config/sdk_config.h"
+            ],
+            "defines": [
+                "APP_TIMER_V2",
+                "APP_TIMER_V2_RTC1_ENABLED",
+                "BL_SETTINGS_ACCESS_ONLY",
+                "BOARD_CUSTOM",
+                "CONFIG_GPIO_AS_PINRESET",
+                "FLOAT_ABI_HARD",
+                "NRF52840_XXAA",
+                "NRF_DFU_SVCI_ENABLED",
+                "NRF_DFU_TRANSPORT_BLE=1",
+                "NRF_SD_BLE_API_VERSION=7",
+                "S140",
+                "SOFTDEVICE_PRESENT"
+            ],
+            "compilerPath": "c:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-gcc.exe",
+            "intelliSenseMode": "windows-gcc-arm"
+        }
+    ],
+    "version": 4
+}

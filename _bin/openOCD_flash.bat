@@ -1,0 +1,1 @@
+c:\Prog\Electronics\OpenOCD-20211118-0.11.0\bin\openocd.exe -s share\openocd -f interface/stlink.cfg -f target/nrf52.cfg -c init -c "reset halt" -c "nrf5 mass_erase" -c "flash write_image firmware_full.hex" -c reset -c exit
